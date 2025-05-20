@@ -1,51 +1,44 @@
-# 🔐 Ultimate Password Generator 
+# 🔐 Password Generator GUI
 
-<p align="center">
-  <img src="https://via.placeholder.com/600x400/2d3748/ffffff?text=Password+Generator+Demo" width="400" alt="App Demo">
-  <br>
-  <em>A secure password generator with strength analysis and clipboard integration</em>
-</p>
-
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-</div>
+A sleek and functional desktop application to generate secure passwords, built with Python and `customtkinter`. Customize your password's length and character composition (uppercase, lowercase, symbols, numbers), and instantly copy it to your clipboard!
 
 ---
 
-## ✨ Key Features
+## 📸 Demo
 
-### 🔧 Customization Options
-| Feature | Options |
-|---------|---------|
-| **Character Types** | Mixed Case • Uppercase Only • Lowercase Only • Numbers Only • Symbols Only |
-| **Password Length** | 4 • 6 • 8 • 12 • 16 Characters |
-| **Security Rating** | Color-coded strength meter (Weak → Secure) |
-
-### 🎨 User Experience
-- 🌓 Dark/Light mode toggle
-- 📋 One-click copy to clipboard
-- 🔄 Instant regeneration
-- 📊 Visual strength indicator
+![Password Generator GUI Screenshot](screenshot.png) <!-- Add screenshot and rename if needed -->
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Features
 
-### Prerequisites
-- Python 3.8+
-- Pip package manager
+- Choose password length: 4, 6, 8, or 16 digits
+- Customize character sets:
+  - Uppercase only
+  - Lowercase only
+  - Mixed (recommended)
+- Include:
+  - Symbols only
+  - Numbers only
+  - Mixed (recommended)
+- Password strength indicator
+- Dark/light mode toggle
+- Copy password to clipboard with a single click
 
+---
 
-## Clone the repository
-git clone https://github.com/yourusername/password-generator.git
-cd password-generator
+## 🛠️ Built With
 
-# Install dependencies
-pip install -r requirements.txt
+- Python
+- [`customtkinter`](https://github.com/TomSchimansky/CustomTkinter)
+- `pyperclip` (for clipboard functionality)
 
-# Run the application
-python password_generator.py
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/password-generator-gui.git
+   cd password-generator-gui
