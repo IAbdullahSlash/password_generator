@@ -6,7 +6,7 @@ A sleek and functional desktop application to generate secure passwords, built w
 
 ## 📸 Demo
 
-![Password Generator GUI Screenshot](screenshot.png) <!-- Add screenshot and rename if needed -->
+![Password Generator GUI Screenshot](PassGen.jpg) <!-- Add screenshot and rename if needed -->
 
 ---
 
